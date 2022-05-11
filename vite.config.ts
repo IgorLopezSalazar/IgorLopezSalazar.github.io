@@ -13,7 +13,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        nested: resolve(__dirname, 'src/segunda/index.html'),
+        nested: resolve(__dirname, 'newPage/index.html'),
       }
     }
   }

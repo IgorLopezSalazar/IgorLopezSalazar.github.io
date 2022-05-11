@@ -1,6 +1,5 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+
 </script>
 
 <template>
@@ -19,7 +18,7 @@ import TheWelcome from './components/TheWelcome.vue'
         
         <div id="previous">
             <a href="https://sites.google.com/view/igorlopez" class="links"><span>Visit my previous website </span></a>
-            <a href="./src/segunda/" class="links image" id="newWeb" texto="⚠ Attention! ⚠ This website is under development and is therefore a Alpha version. ">
+            <a href="../newPage/" class="links image" id="newWeb" texto="⚠ Attention! ⚠ This website is under development and is therefore a Alpha version. ">
                 <span>Try my NEW website</span>
             </a>
         </div>
