@@ -75,6 +75,10 @@ a,
   #previous {
     padding: 0;
   }
+
+  .image:hover:after{
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 850px) {
@@ -85,17 +89,35 @@ a,
 }
 
 @media (max-width: 650px) {
+  .gravity {
+    padding: 35px 0 20px 0;
+  }
+  
   .gravity h1{
     padding: 0;
+    font-size: 48px;
   }
   
   .gravity p {
-    padding-top: 60px;
+    padding-top: 10vh;
   }
 
   .links{
     margin: 2rem;
     font-size: 20px;
+  }
+
+  .image:hover:after{
+    top: 11rem;
+    font-size: 14px;
+  }
+
+}
+
+@media (max-width: 471px) {
+  .image:hover:after{
+    top: 14rem;
+    font-size: 12px;
   }
 }
 
