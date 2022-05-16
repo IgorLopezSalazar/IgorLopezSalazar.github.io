@@ -71,8 +71,32 @@ a,
   }
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
+  #previous {
+    padding: 0;
+  }
+}
+
+@media (max-width: 850px) {
+  .wrapper {
+    background-size: cover;
+  }
+
+}
+
+@media (max-width: 650px) {
+  .gravity h1{
+    padding: 0;
+  }
   
+  .gravity p {
+    padding-top: 60px;
+  }
+
+  .links{
+    margin: 2rem;
+    font-size: 20px;
+  }
 }
 
 </style>
