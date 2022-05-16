@@ -1,1 +1,0 @@
-import{_ as e,o as a,c as r,f as c}from"./plugin-vue_export-helper.eeca00fb.js";const n={};function t(o,p){return a(),r("h2",null,"Esta ser\xE1 la nueva web")}var s=e(n,[["render",t]]);c(s).mount("#app");
