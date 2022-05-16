@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview --port 5050",
-    "predeploy": "npm run build && echo 'www.igorlopez.eus' > ./dist/CNAME ",
+    "predeploy": "npm run build && echo 'igorlopez.eus' > ./dist/CNAME ",
     "deploy": "gh-pages -d dist",
     "typecheck": "vue-tsc --noEmit"
   },
