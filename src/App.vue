@@ -1,7 +1,3 @@
-<script setup lang="ts">
-
-</script>
-
 <template>
   <div class="wrapper">
         <div class="opacity"></div>
@@ -9,7 +5,7 @@
             <div class="container">
                 <div class=" row">
                     <div class="col-md-12">
-                        <h1>Igor Lopez Salazar</h1>
+                        <h1>Igor López Salazar</h1>
                         <P>My website is being developed</P>
                     </div>
                 </div>
@@ -38,6 +34,12 @@
         </div>
     </div>
 </template>
+
+
+
+<script>
+
+</script>
 
 <style>
 @import './assets/base.css';

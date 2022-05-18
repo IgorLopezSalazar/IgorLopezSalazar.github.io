@@ -11,7 +11,7 @@ body {
 .wrapper {
   min-height: 100vh;
   position: relative;
-  background-image: url(img/bg.jpg);
+  background-image: url(../img/bg.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   z-index: 40;
@@ -30,8 +30,6 @@ body {
   text-align: center;
   padding: 70px 0;
 }
-
-.gravity .logo {}
 
 .gravity h1 {
   color: #d0d0d0;
@@ -56,9 +54,8 @@ body {
   background-color: rgba(79, 70, 62, 0.5);
   border-radius: 2rem;
   padding: 1.5rem 2rem 1.5rem 2rem;
-  width: 100%;
-
-  margin: 0 3rem 0 3rem;
+  
+  width: 50%;
 }
 
 .links:hover, .links:focus{
@@ -100,6 +97,9 @@ body {
   display: flex;
   justify-content: space-evenly;
   padding-top: 90px;
+
+  gap: 20%;
+  margin: 0 15%;
 }
 
 .gravity P {
